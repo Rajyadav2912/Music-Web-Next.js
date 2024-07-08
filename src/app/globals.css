@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  /* display: none; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
